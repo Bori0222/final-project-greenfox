@@ -1,0 +1,103 @@
+body {
+    background-image: linear-gradient(to bottom right, rgb(252, 247, 251), rgb(222, 166, 220));
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#nagyitott {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 14px -6px 29px -6px rgba(0,0,0,0.52);
+}
+
+#photo {
+    width: auto;
+    height: 400px;
+    margin: 0;
+}
+
+.photo-container {
+    display: flex;
+    align-items: end;
+}
+
+.photo {
+    width: 590px;
+    background-color: rgb(183, 183, 183);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.oldalsav {
+    height: 400px;
+    width: 30px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jobb {
+    transform: rotate(0.5turn);
+}
+
+.nyil {
+   height: 20px;
+   width: 20px;
+}
+
+#sor {
+    width: 100%;   
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.thumbnail {
+    height: 80px;
+    width: 90px;
+    padding: 0px;
+    margin: 5px;
+    border: 5px solid rgb(214, 214, 214);
+    border-radius: 4px;
+    box-shadow: 0 1px 3px 0px rgb(91, 91, 91);
+}
+
+.grey-container {
+    height: 100px; 
+    width: 590px; 
+    background-color: rgb(78, 81, 82); 
+    opacity: 80%;
+    position: absolute; 
+    z-index: 1;
+}
+
+.grey-container h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.grey-container p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.title, .description {
+    padding: 10px 0 0 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(165, 165, 165);
+}
